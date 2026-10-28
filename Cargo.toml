@@ -1,0 +1,13 @@
+[package]
+name = "everbench-core"
+version = "0.1.0"
+edition = "2021"
+description = "Sequential Probability Ratio Test (SPRT), Elo estimation, and TIES/DARE orthogonal parameter merging in Rust"
+license = "Apache-2.0"
+
+[lib]
+name = "everbench_core"
+path = "rust/src/lib.rs"
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]

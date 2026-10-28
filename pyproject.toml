@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=65.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "everbench"
+version = "0.1.0"
+description = "Fishtest for LLMs: Contamination-Proof Benchmark, SPRT Gate & Orthogonal Parameter Merger"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "Apache-2.0"}
+authors = [
+    {name = "Verifiable AI Contributors"}
+]
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["src"]
